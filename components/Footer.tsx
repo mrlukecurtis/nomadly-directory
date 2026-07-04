@@ -29,6 +29,11 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-2.5 text-sm text-white/68">
+              <p className="text-white font-semibold mb-0.5">Learn</p>
+              <Link href="/resources" className="hover:text-white transition-colors">Resources</Link>
+            </div>
+
+            <div className="flex flex-col gap-2.5 text-sm text-white/68">
               <p className="text-white font-semibold mb-0.5">Company</p>
               <Link href="/about" className="hover:text-white transition-colors">About</Link>
               <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>

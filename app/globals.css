@@ -3,31 +3,60 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* Neutrals */
+  --color-canvas:       #ffffff;
+  --color-cream:        #f5f1e8;
+  --color-ink:          #2b2a26;
+  --color-body-muted:   #5c584f;
+  --color-slate:        #8a8478;
+  --color-hairline:     #e3ddd0;
+  --color-border-light: #ece6d8;
+  --color-card-border:  #efe9dc;
+
+  /* Brand */
+  --color-forest:       #2f4a3c;
+  --color-forest-dark:  #22362b;
+  --color-coral:        #c96f45;
+  --color-coral-soft:   #f0d9cb;
+  --color-gold:         #d4a24e;
+  --color-gold-soft:    #f4e4c4;
+
+  /* Semantic */
+  --color-error:        #b3261e;
+  --color-focus:        #2f6a4f;
+  --color-on-forest:    #ffffff;
+
+  /* Elevation */
+  --shadow-float-soft:  0 4px 16px rgba(43, 42, 38, 0.08);
+  --shadow-float:       0 12px 32px rgba(43, 42, 38, 0.14);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
 }
+
+a { color: inherit; }
+button { font-family: inherit; }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 }

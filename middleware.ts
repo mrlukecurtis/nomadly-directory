@@ -6,20 +6,15 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
-  const adminPassword = process.env.ADMIN_PASSWORD
-  if (!adminPassword) {
-    console.error('ADMIN_PASSWORD env variable is not set')
-    return new NextResponse('Server misconfiguration', { status: 500 })
+  if (request.nextUrl.pathname === '/admin/login') {
+    return NextResponse.next()
   }
 
-  const authHeader = request.headers.get('authorization') ?? ''
-  const expected   = 'Basic ' + btoa(`admin:${adminPassword}`)
-
-  if (authHeader !== expected) {
-    return new NextResponse('Unauthorized', {
-      status: 401,
-      headers: { 'WWW-Authenticate': 'Basic realm="Admin Area"' },
-    })
+  const session = request.cookies.get('admin_session')?.value
+  if (session !== process.env.ADMIN_PASSWORD) {
+    const loginUrl = new URL('/admin/login', request.url)
+    loginUrl.searchParams.set('from', request.nextUrl.pathname)
+    return NextResponse.redirect(loginUrl)
   }
 
   return NextResponse.next()

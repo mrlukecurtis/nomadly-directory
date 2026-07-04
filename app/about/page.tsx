@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'About Nomadian',
-  description: 'Nomadian is Australia\'s directory for campervan builders, van converters, and 4x4 outfitters.',
+  title: 'About Nomadly',
+  description: 'Nomadly is Australia\'s directory for campervan builders, van converters, and 4x4 outfitters.',
 }
 
 export default function AboutPage() {
@@ -19,13 +19,13 @@ export default function AboutPage() {
 
       <div className="flex flex-col gap-5 text-[17px] leading-[1.65] text-body-muted max-w-[640px]">
         <p>
-          Nomadian is Australia&apos;s dedicated directory for campervan builders, van converters, and 4x4 outfitters. We built it because finding a trusted, verified builder shouldn&apos;t require weeks of forum trawling and cold calls.
+          Nomadly is Australia&apos;s dedicated directory for campervan builders, van converters, and 4x4 outfitters. We built it because finding a trusted, verified builder shouldn&apos;t require weeks of forum trawling and cold calls.
         </p>
         <p>
           Every listing is verified for ABN and business legitimacy before it goes live. Builders who complete our full verification process earn a Verified badge, which appears on their profile and in search results.
         </p>
         <p>
-          We&apos;re a small team based in Byron Bay, NSW. We live this lifestyle and we built Nomadian for people who do too.
+          We&apos;re a small team based in Byron Bay, NSW. We live this lifestyle and we built Nomadly for people who do too.
         </p>
       </div>
 

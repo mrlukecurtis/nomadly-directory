@@ -20,10 +20,10 @@ const interBody = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nomadian.com.au'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://nomadly.com.au'),
   title: {
-    template: `%s | ${process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadian'}`,
-    default: process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadian',
+    template: `%s | ${process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadly'}`,
+    default: process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadly',
   },
   description: `Find the best ${process.env.NEXT_PUBLIC_NICHE_KEYWORD ?? 'campervan builders & van converters'} in Australia.`,
 }

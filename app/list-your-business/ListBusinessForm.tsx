@@ -27,7 +27,7 @@ export default function ListBusinessForm() {
       if (!res.ok) throw new Error('Something went wrong')
       setDone(true)
     } catch {
-      setError('Something went wrong. Please email us at hello@nomadian.com.au.')
+      setError('Something went wrong. Please email us at hello@nomadly.com.au.')
     } finally {
       setLoading(false)
     }

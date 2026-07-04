@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'How Nomadian collects, uses, and protects your information.',
+  description: 'How Nomadly collects, uses, and protects your information.',
 }
 
 const year = new Date().getFullYear()
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
       <div className="flex flex-col gap-8 text-[16px] leading-[1.7] text-body-muted">
         <section>
           <h2 className="font-display font-semibold text-ink mb-3" style={{ fontSize: '20px' }}>Information we collect</h2>
-          <p>When you submit an enquiry through Nomadian, we collect your name, email address, phone number (optional), and the message you send. This information is shared with the business you contacted so they can respond to your enquiry.</p>
+          <p>When you submit an enquiry through Nomadly, we collect your name, email address, phone number (optional), and the message you send. This information is shared with the business you contacted so they can respond to your enquiry.</p>
           <p className="mt-3">We also collect anonymised usage data (pages visited, time on page) via Vercel Analytics. This data cannot be used to identify you.</p>
         </section>
 
@@ -35,17 +35,17 @@ export default function PrivacyPage() {
 
         <section>
           <h2 className="font-display font-semibold text-ink mb-3" style={{ fontSize: '20px' }}>Your rights</h2>
-          <p>You can request access to, correction of, or deletion of your personal data at any time by emailing <a href="mailto:privacy@nomadian.com.au" className="text-forest hover:underline">privacy@nomadian.com.au</a>. We will respond within 30 days.</p>
+          <p>You can request access to, correction of, or deletion of your personal data at any time by emailing <a href="mailto:privacy@nomadly.com.au" className="text-forest hover:underline">privacy@nomadly.com.au</a>. We will respond within 30 days.</p>
         </section>
 
         <section>
           <h2 className="font-display font-semibold text-ink mb-3" style={{ fontSize: '20px' }}>Cookies</h2>
-          <p>Nomadian does not use advertising cookies or tracking pixels. Vercel Analytics uses privacy-first, cookieless tracking that complies with Australian Privacy Act requirements.</p>
+          <p>Nomadly does not use advertising cookies or tracking pixels. Vercel Analytics uses privacy-first, cookieless tracking that complies with Australian Privacy Act requirements.</p>
         </section>
 
         <section>
           <h2 className="font-display font-semibold text-ink mb-3" style={{ fontSize: '20px' }}>Contact</h2>
-          <p>For privacy-related enquiries: <a href="mailto:privacy@nomadian.com.au" className="text-forest hover:underline">privacy@nomadian.com.au</a></p>
+          <p>For privacy-related enquiries: <a href="mailto:privacy@nomadly.com.au" className="text-forest hover:underline">privacy@nomadly.com.au</a></p>
         </section>
       </div>
     </div>

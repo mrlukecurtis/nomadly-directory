@@ -34,7 +34,7 @@ function HeaderInner() {
           href="/"
           className="font-display font-semibold text-[20px] sm:text-[22px] tracking-[-0.6px] text-ink shrink-0"
         >
-          Nomadian
+          Nomadly
         </Link>
 
         <form onSubmit={handleSearch} className="flex-1 hidden sm:flex items-center gap-2.5 border border-hairline rounded-nm-pill px-4 py-[9px] bg-canvas max-w-[420px]">
@@ -85,7 +85,7 @@ export default function Header() {
     <Suspense fallback={
       <header className="sticky top-0 z-40 bg-canvas border-b border-hairline h-[60px]">
         <div className="max-w-[1280px] mx-auto px-8 h-full flex items-center">
-          <span className="font-display font-semibold text-[22px] tracking-[-0.6px] text-ink">Nomadian</span>
+          <span className="font-display font-semibold text-[22px] tracking-[-0.6px] text-ink">Nomadly</span>
         </div>
       </header>
     }>

@@ -33,7 +33,7 @@ export default function ContactForm() {
       if (!res.ok) throw new Error()
       setDone(true)
     } catch {
-      setError('Something went wrong. Please email us directly at hello@nomadian.com.au.')
+      setError('Something went wrong. Please email us directly at hello@nomadly.com.au.')
     } finally {
       setLoading(false)
     }

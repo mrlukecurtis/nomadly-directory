@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="max-w-[1280px] mx-auto px-8 pt-12 pb-10">
         <div className="flex justify-between flex-wrap gap-10">
           <div className="max-w-[280px]">
-            <p className="font-display font-semibold text-xl mb-3">Nomadian</p>
+            <p className="font-display font-semibold text-xl mb-3">Nomadly</p>
             <p className="text-sm leading-relaxed text-white/68">
               The best place in Australia to get inspired, get informed, and connect with vetted pros for campervan and adventure vehicle builds.
             </p>
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/15 mt-9 pt-5 text-[13px] text-white/55">
-          &copy; {year} Nomadian. All rights reserved.
+          &copy; {year} Nomadly. All rights reserved.
         </div>
       </div>
     </footer>

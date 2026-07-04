@@ -5,7 +5,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     <div className="flex h-screen bg-[#faf8f3] overflow-hidden">
       {/* Sidebar */}
       <aside className="w-[224px] shrink-0 bg-forest text-white flex flex-col px-[18px] py-6">
-        <p className="font-display font-semibold text-[18px] mx-1.5 mb-7">Nomadian admin</p>
+        <p className="font-display font-semibold text-[18px] mx-1.5 mb-7">Nomadly admin</p>
 
         <nav className="flex flex-col gap-0.5">
           <Link

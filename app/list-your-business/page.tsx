@@ -59,7 +59,7 @@ export default function ListYourBusinessPage() {
             Get your business in front of serious builders
           </h1>
           <p className="text-[17px] leading-[1.6] text-body-muted mb-10 max-w-[480px]">
-            Nomadian is where Australians go to find vetted campervan builders, van converters, and 4x4 outfitters. A listing puts your business directly in front of people ready to commission a build.
+            Nomadly is where Australians go to find vetted campervan builders, van converters, and 4x4 outfitters. A listing puts your business directly in front of people ready to commission a build.
           </p>
 
           <div className="flex flex-col gap-6">
@@ -80,7 +80,7 @@ export default function ListYourBusinessPage() {
             <p className="text-sm font-semibold text-ink mb-1">Already listed?</p>
             <p className="text-[13px] text-body-muted">
               Your business may already be in our directory. Email us at{' '}
-              <a href="mailto:hello@nomadian.com.au" className="text-forest hover:underline font-medium">hello@nomadian.com.au</a>{' '}
+              <a href="mailto:hello@nomadly.com.au" className="text-forest hover:underline font-medium">hello@nomadly.com.au</a>{' '}
               to claim and verify your profile.
             </p>
           </div>

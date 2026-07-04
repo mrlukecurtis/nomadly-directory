@@ -72,7 +72,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (!listing) return {}
 
   const nicheKw  = process.env.NEXT_PUBLIC_NICHE_KEYWORD ?? 'van conversions & fitouts'
-  const siteName = process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadian'
+  const siteName = process.env.NEXT_PUBLIC_SITE_NAME ?? 'Nomadly'
 
   return {
     title: `${listing.business_name} — ${listing.address_city} ${listing.address_state}`,
@@ -340,7 +340,7 @@ export default async function ListingPage({ params }: { params: { slug: string }
             </div>
             <div>
               <p className="text-sm font-semibold text-ink">Verified &amp; insured</p>
-              <p className="text-[13px] text-body-muted">ABN &amp; workmanship warranty checked by Nomadian</p>
+              <p className="text-[13px] text-body-muted">ABN &amp; workmanship warranty checked by Nomadly</p>
             </div>
           </div>
         </div>

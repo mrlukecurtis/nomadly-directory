@@ -3,7 +3,7 @@ import ContactForm from './ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with the Nomadian team.',
+  description: 'Get in touch with the Nomadly team.',
 }
 
 export default function ContactPage() {
@@ -23,7 +23,7 @@ export default function ContactPage() {
           </p>
 
           <div className="flex flex-col gap-4">
-            <a href="mailto:hello@nomadian.com.au" className="flex items-center gap-3.5 group">
+            <a href="mailto:hello@nomadly.com.au" className="flex items-center gap-3.5 group">
               <div className="w-11 h-11 rounded-nm-md bg-cream border border-hairline flex items-center justify-center shrink-0">
                 <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--color-forest)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 5L2 7" />
@@ -31,7 +31,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-[13px] text-slate">Email</p>
-                <p className="text-[15px] font-medium text-ink group-hover:text-forest transition-colors">hello@nomadian.com.au</p>
+                <p className="text-[15px] font-medium text-ink group-hover:text-forest transition-colors">hello@nomadly.com.au</p>
               </div>
             </a>
 
